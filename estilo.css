@@ -691,10 +691,14 @@ label{
 
 
 
+    #fotos-m img:hover{
+        border: 1px solid rgb(133, 132, 132);
+    }
 
 
-
-
+    #fotos img:hover{
+        border: 1px solid rgb(133, 132, 132);
+    }
 
 }
 
@@ -729,6 +733,8 @@ label{
     max-width: 280px;
     border: 1px solid rgb(201, 201, 201);
 }
+
+
 
 
 #fotos-m h4{
