@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Y NORMALIZE -->
     <link rel="stylesheet" href="../estilo.css">
     <link rel="stylesheet" href="../normalize.css">
+    <!-- ICONOS -->
     <script src="https://kit.fontawesome.com/778fb26e57.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./fontello-18a22184/css/fontello.css">
+    <!-- BOOTSTRAP -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Registrarse</title>
 </head>
     <body class="grid-container">
@@ -22,15 +27,14 @@
                    <a href="./mujeres.html">MUJERES</a>
                    <a href="./hombres.html">HOMBRES</a>
                    <a href="./colecciones.html">COLECCIONES</a>
-                   <a href="./registrarse.html">REGISTRARSE</a>
+                   <a href="../index.html">INICIO</a>
                </nav>
             </div>
         </header>
-        <section>
+        <section id="panel-cuenta">
                  <div class="panel">
                      <h1>PANEL DE CUENTA</h1>
                  </div>
-
                  <div class="inicio">
                    <h3 class="titulos-sesion">INICIAR SESION</h3><br>
                      <label for="email-Inicio"></label>
@@ -39,8 +43,8 @@
                      <label for="pass-inicio"></label>
                      <input class="inputs-sesion" type="password" id="pass-inicio" placeholder="CONTRASEÑA*" required><br>
              
-                     <button>INICIAR SESION</button>
-                     <button>¿Olvidaste tu contraseña?</button>
+                     <a href="#">INICIAR SESION</a>
+                     <a href="#">¿Olvidaste tu contraseña?</a> 
                  </div>
 
                  <div class="registro">
@@ -64,15 +68,15 @@
                     <label for="pass-confirm"></label>
                     <input class="inputs-sesion" type="password" id="pass-confirm" placeholder="CONFIRMAR CONSTRASEÑA*" required><br>
          
-                     <h3 class="titulos-sesion">FECHA DE NACIMIENTO*</h3><br>
+                     <h3 class="titulos-sesion">FECHA DE NACIMIENTO</h3><br>
   
                     <label for="fechas"></label>
-                    <input type="date" id="fechas" required target = "_blanck">
+                    <input class="cumpleaños" type="date" id="fechas" required target = "_blanck">
+
+
+                    <a class="crear" href="#">CREAR CUENTA</a>
                  </div>
-                 
-                  <div>
-                      <button>CREAR CUENTA</button>
-                  </div>
+                  
         </section>
               <!---------------------------------------- FOOTER MOBILE/TABLET----------------------------- -->
 
@@ -156,5 +160,15 @@
                <p class="condiciones">©NIKE todos los derechos reservados</p>
                <p class="condiciones">terminos de uso</p>
              </div>
+
+
+
+
+
+
+
+
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>      
   </body>
 </html>

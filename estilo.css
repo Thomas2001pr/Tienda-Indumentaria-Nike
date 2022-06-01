@@ -124,6 +124,7 @@ header label{
 
 .menu a:hover{
     background: rgb(255, 255, 255,0.3);
+    color: #ededed;
 }
 
 
@@ -249,13 +250,94 @@ article h4{
 }
 
 
+#panel-cuenta{
+    display: grid;
+}
+
+
+
+.panel{
+    margin-top: 50px;
+    width: 100%;
+}
+
+.panel h1{
+    background: rgb(20, 20, 20);
+    color: #ededed;
+    padding: 30px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.inicio{
+    margin: 30px 10px;
+}
 
 
 
 
+ .inicio a{
+     background: #ededed;
+     color: black;
+     padding: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-decoration: none;
+     border: 1px solid black;
+     margin-right: 20px;
+ }
+ 
+ .inicio a:hover{
+     background: #d8d7d7;
+     color: black;
+ }
+ 
 
 
 
+.titulos-sesion{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.inputs-sesion{
+    background: black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 12px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+}
+
+
+.crear{
+    background: #ededed;
+    color: black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+
+
+.crear:hover{
+    background: #d8d7d7;
+    color: black;
+}
+
+
+.cumpleaños{
+    margin-left: 10px;
+    background: black;
+    color: #d8d7d7;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* -----------------------------------------------------SECTION3--------------------------------------------------- */
 
@@ -511,6 +593,7 @@ label{
     .icon-basket{
         display: block;
         padding: 0 20px;
+        color: #ededed;
     }
 
 .icon-user:hover{
@@ -573,6 +656,7 @@ label{
    .menu a:hover{
        background: black;
        border-bottom: 1px solid #ededed;
+       color: white;
    }
    
 
