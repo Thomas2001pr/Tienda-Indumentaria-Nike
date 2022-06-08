@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilo.css">
+    <link rel="stylesheet" href="../Sass/estilo.css">
     <link rel="stylesheet" href="../normalize.css">
     <script src="https://kit.fontawesome.com/778fb26e57.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./fontello-18a22184/css/fontello.css">
@@ -13,21 +13,32 @@
     <title>Mujeres</title>
 </head>
     <body class="grid-container">
-        <header>
-            <div class="contenedor">
-                 <a href="../index.html"><img src="./Imagenes/NIKE-WHITE-1024x360.png" alt="logo" width="70px" height="30"></a>
-                 <input type="checkbox" id="menu-bar">
-                 <a href="./Secciones/colecciones.html"><label class="icon-menu" for="menu-bar"></label></a>
-                 <a href="./Secciones/registrarse.html"><label class="icon-user" for="header"></label></a>
-                 <label class="icon-basket" for="header"></label>
-               <nav class="menu">
-                   <a href="../index.html">INICIO</a>
-                   <a href="./hombres.html">HOMBRES</a>
-                   <a href="./colecciones.html">COLECCIONES</a>
-                   <a href="./registrarse.html">REGISTRARSE</a>
-               </nav>
+      <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../Secciones/Imagenes/NIKE-WHITE-1024x360.png" width="70px" height="30" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="./mujeres.html">MUJERES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./hombres.html">HOMBRES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./colecciones.html">COLECCIONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./registrarse.html" >REGISTRARSE</a>
+                </li>
+              </ul>
             </div>
-        </header>
+          </div>
+        </nav>
+       </header>
         <!--------------------------------------  FIN DEL HEADER---------------------------------- -->
         <section id="fotos-m">
               <div class="contenedor-m">
