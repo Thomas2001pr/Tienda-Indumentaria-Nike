@@ -1,4 +1,36 @@
 @charset "UTF-8";
+.color-aviso1 {
+  background: #e9d739;
+  text-align: center;
+  color: black;
+  margin: 100px 0;
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.color-aviso2 {
+  background: #da0707;
+  text-align: center;
+  color: white;
+  margin: 100px 0;
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.ofertas {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding: 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.ofertas:hover {
+  color: white;
+}
+
 header #navbarNav .nav-link {
   color: #ededed;
 }

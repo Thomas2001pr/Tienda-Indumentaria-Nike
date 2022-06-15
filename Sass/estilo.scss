@@ -1,3 +1,66 @@
+// ---------------maps-------------------
+$colores: (
+	descuento: #da0707,
+	aviso: #e9d739,
+);
+
+
+.color-aviso1{
+	background: map-get($colores, aviso);
+	text-align: center;
+	color: black;
+	margin: 100px 0;
+	padding: 40px 0;
+	font-size: 20px;
+}
+
+.color-aviso2{
+	background: map-get($colores, descuento);
+	text-align: center;
+	color: white;
+	margin: 100px 0;
+	padding: 40px 0;
+	font-size: 20px;
+}
+
+
+@mixin boton{
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	border-radius: 25px;
+	padding: 5px 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	&:hover{
+		color: white
+	}
+}
+
+.ofertas{
+	@include boton;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header{
 	#navbarNav{
 		.nav-link{
