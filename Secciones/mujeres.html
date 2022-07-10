@@ -4,150 +4,134 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Sass/estilo.css">
-    <link rel="stylesheet" href="../normalize.css">
+    <!------- CSS/NORMALIZE -------->
+    <link rel="stylesheet" href="../Css/estilo.css">
+    <link rel="stylesheet" href="../Css/normalize.css">
     <script src="https://kit.fontawesome.com/778fb26e57.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./fontello-18a22184/css/fontello.css">
-    <!-- KEYWORDS -->
+    <link rel="stylesheet" href="../fontello-18a22184/css/fontello.css">
+    <!------- KEYWORDS -------->
     <meta name="description" content="Tienda indumentaria Nike, productos generales, mujeres, hombres,ultimas colecciones 2022/2023">
-    <meta name="keywords" content="ROPA, CALZADO, INDUMENTARIA, COLECCIONES, TIENDA, ACCESORIOS, DEPORTE, ABRIGOS">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <title>Mujeres</title>
+    <meta name="keywords" content="ROPA, CALZADO, NIÑAS, MUJERES, TIENDA, ACCESORIOS, DEPORTE, ABRIGOS">
+    <title>MUJERES</title>
 </head>
-    <body class="grid-container">
-      <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html"><img src="../Secciones/Imagenes/NIKE-WHITE-1024x360.png" width="70px" height="30" alt="logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"></button>
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link " aria-current="page" href="./mujeres.html">MUJERES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./hombres.html">HOMBRES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./colecciones.html">COLECCIONES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./registrarse.html" >REGISTRARSE</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-       </header>
-        <!--------------------------------------  FIN DEL HEADER---------------------------------- -->
+<body>
+    <header>
+        <div class="contenedor">
+            <h1><a href="../index.html"><img src="../Img/LogoNike.png" width="70px" height="30" alt="logo"></a></h1>
+            <input type="checkbox" id="menu-bar">
+            <label class="icon-menu" for="menu-bar"></label>
+            <nav class="menu">
+                <a class="secciones" href="../index.html">INICIO</a>
+                <a class="secciones" href="./hombres.html">HOMBRES</a>
+                <a class="secciones" href="./colecciones.html">COLECCIONES</a>
+                <a class="secciones" href="./registrarse.html">REGISTRARSE</a>
+            </nav>
+        </div>
+    </header>
+    <main>
         <section id="fotos-m">
-              <div class="contenedor-m">
-                  <article>
-                    <h4>NIÑAS</h4>
-                      <img  src="./Imagenes/niña.webp" alt="calzado"> 
-                  </article>
-                  <article>
-                    <h4>DEPORTIVO</h4>
-                      <img src="./Imagenes/deportivo-mujer.webp" alt="calzado"> 
-                  </article>
-                  <article>
-                    <h4>ACCESORIOS</h4>
-                      <img src="./Imagenes/accesorio.webp" alt="calzado">
-                  </article>
-                  <article>
-                    <h4>ABRIGOS</h4>
-                      <img src="./Imagenes/abrigo-mujer.webp" alt="calzado">
-                  </article>
-              </div>
-        </section>
-    <!---------------------------------------- FOOTER MOBILE/TABLET----------------------------- -->
-
-    <footer id="final">
-        <p class="frase-f">Enterate de todo lo nuevo de Nike</p>
-           <label for="mail-footer"></label>
-           <input type="text" id="mail-footer" class="f-mail" placeholder="CORREO ELECTRONICO">
-         <div class="c-contenedor">
-            <p class="ayudas">Ayuda</p>
-            <p class="ayudas">Acerca de Nike</p>
-         </div>
-
-          <div class="marco">
-          <div>
-            <label id="iconos" class="icon-facebook-squared" for="footer"></label>
-            <label id="iconos" class="icon-youtube" for="footer"></label>
-            <label id="iconos" class="icon-twitter" for="footer"></label>
-            <label id="iconos" class="icon-instagram" for="footer"></label>
-
-
-            <div class="ultimo">
-               <select name="pais" id="pais">
-                   <option class="arg" value="01">Argentina</option>
-                   <option value="02">Chile</option>
-                   <option value="03">Brasil</option>
-                   <option value="04">Colombia</option>
-                   <option value="05">Uruguay</option>
-                   <option value="06">Peru</option>
-               </select>
+            <div class="contenedor-m">
+                <article>
+                  <h4>NIÑAS</h4>
+                    <a href=""><img  src="../Img/niña-mujer.jpg" alt="niñas"></a>
+                </article>
+                <article>
+                  <h4>DEPORTIVO</h4>
+                    <a href=""><img src="../Img/deportivo-mujer.jpg" alt="deportivo"></a>
+                </article>
+                <article>
+                  <h4>ACCESORIOS</h4>
+                    <a href=""><img src="../Img/accesorio-mujer3.jpg" alt="accesorios"></a>
+                </article>
+                <article>
+                  <h4>ABRIGOS</h4>
+                    <a href=""><img src="../Img/abrigo-mujer.jpg" alt="abrigos"></a>
+                </article>
             </div>
+      </section>
+    </main>
 
-         </div>
-         <p class="terminos">©NIKE todos los derechos reservados</p>
-         <p class="terminos">terminos de uso</p>
-    </footer>
 
-<!-- ---------------------------------------FOOTER DESKSTOP-------------------------------- -->
+        <!--------------------------------FOOTER MOBILE----------------------------------- -->
 
-    <footer id="final2">
-     <div class="fila">
-          <div class="caja1      ayuda">
-            <h5>AYUDA</h5>
-             <ul>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Contactanos</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Politica y Privacidad</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Tiendas</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Terminos y Condiciones</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Mapa del sitio</li></a>
-             </ul>
-          </div>
-        <div class="caja1    acerca">
-           <h5 class="acerca">ACERCA DE NOSOTROS</h5>
-             <ul>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Compañia</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Noticias</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Empleos</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Sustentabilidad</li></a>
-                 <a class="li-footer" href="./Secciones/registrarse.html"><li>Inversiones</li></a>
-             </ul>
-         </div>
-         <div class="caja1  encontranos">
-           <h5 class="en">ENCONTRANOS EN</h5>
-            <div  class="red">
-              <a href="#"><label class="icon-facebook-squared" for="footer"></label></a>
-              <a href="#"><label class="icon-youtube" for="footer"></label></a>
-              <a href="#"><label class="icon-twitter" for="footer"></label></a>
-              <a href="#"><label class="icon-instagram" for="footer"></label></a>
+
+        <footer class="final">
+            <p class="frase-f">Enterate de todo lo nuevo de Nike</p>
+               <label for="mail-footer"></label>
+               <input type="text" id="mail-footer" class="f-mail" placeholder="CORREO ELECTRONICO">
+             <div class="c-contenedor">
+                <p class="ayudas">Ayuda</p>
+                <p class="ayudas">Acerca de Nike</p>
+             </div>
+              <div class="marco">
+              <div>
+                <label id="iconos" class="icon-facebook-squared" for="footer"></label>
+                <label id="iconos" class="icon-youtube" for="footer"></label>
+                <label id="iconos" class="icon-twitter" for="footer"></label>
+                <label id="iconos" class="icon-instagram" for="footer"></label>
+                <div class="ultimo">
+                   <select name="pais" id="pais">
+                       <option class="arg" value="01">Argentina</option>
+                       <option value="02">Chile</option>
+                       <option value="03">Brasil</option>
+                       <option value="04">Colombia</option>
+                       <option value="05">Uruguay</option>
+                       <option value="06">Peru</option>
+                   </select>
+                </div>
+             </div>
+             <p class="terminos">©NIKE todos los derechos reservados</p>
+             <p class="terminos">terminos de uso</p>
+        </footer>
+    
+    
+    <!----------------------------------FOOTER/DESKTOP----------------------------------------->
+    
+    
+        <footer id="final2">
+            <div class="fila">
+                 <div class="caja1      ayuda">
+                   <h5>AYUDA</h5>
+                    <ul>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Contactanos</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Politica y Privacidad</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Tiendas</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Terminos y Condiciones</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Mapa del sitio</li></a>
+                    </ul>
+                 </div>
+               <div class="caja1    acerca">
+                  <h5 class="acerca">ACERCA DE NOSOTROS</h5>
+                    <ul>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Compañia</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Noticias</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Empleos</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Sustentabilidad</li></a>
+                        <a class="li-footer" href="./Secciones/registrarse.html"><li>Inversiones</li></a>
+                    </ul>
+                </div>
+                <div class="caja1  encontranos">
+                  <h5 class="en">ENCONTRANOS EN</h5>
+                   <div  class="red">
+                     <a href="#"><label class="icon-facebook-squared" for="footer"></label></a>
+                     <a href="#"><label class="icon-youtube" for="footer"></label></a>
+                     <a href="#"><label class="icon-twitter" for="footer"></label></a>
+                     <a href="#"><label class="icon-instagram" for="footer"></label></a>
+                   </div>
+                </div>
             </div>
-         </div>
-     </div>
-  </footer>
-  <div class="caja2">
-     <select name="pais" id="pais">
-         <option class="arg" value="01">Argentina</option>
-         <option value="02">Chile</option>
-         <option value="03">Brasil</option>
-         <option value="04">Colombia</option>
-         <option value="05">Uruguay</option>
-         <option value="06">Peru</option>
-     </select>
-       <p class="condiciones">©NIKE todos los derechos reservados</p>
-       <p class="condiciones">terminos de uso</p>
-     </div>
-
-
-     <!-- JavaScript Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-</body>
-</html>
+        </footer>
+          <div class="caja2">
+            <select name="pais" id="pais">
+                <option class="arg" value="01">Argentina</option>
+                <option value="02">Chile</option>
+                <option value="03">Brasil</option>
+                <option value="04">Colombia</option>
+                <option value="05">Uruguay</option>
+                <option value="06">Peru</option>
+            </select>
+              <p class="condiciones">©NIKE todos los derechos reservados</p>
+              <p class="condiciones">terminos de uso</p>
+            </div>
+    </body>
+    </html>

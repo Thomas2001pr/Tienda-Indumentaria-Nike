@@ -1,0 +1,921 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ededed;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: black;
+    color: white;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+
+
+h1{
+    float: left;
+}
+
+h1 a img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+header .contenedor{
+    display: table;
+}
+
+#menu-bar{
+    display: none;
+}
+
+header label{
+    float: right;
+    font-size: 28px;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.icon-menu{
+    margin-top: 20px;
+}
+
+.menu{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    transition: all 0.5s;
+    transform: translateX(-100%);
+}
+
+.menu a{
+    display: block;
+    color: #fff;
+    height: 60px;
+    text-decoration: none;
+    padding: 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a:hover{
+    background:rgba(255, 255, 255, 0.3) ;
+}
+
+#menu-bar:checked ~ .menu{
+    transform: translateX(0%)
+}
+
+
+
+.icon-basket{
+    display: none;
+}
+
+.icon-user{
+    display: none;
+}
+
+/* ----------------------------FIN HEADER--------------------------- */
+
+
+/* --------------------------------MAIN----------------------------- */
+
+.imagen-principal{
+    margin-top: 70px;
+    position: relative;
+}
+
+
+
+.coleccion-red{
+     width: 100%;
+     height: 100%;
+}
+
+.textos-red{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    color: white;
+}
+
+span{
+    color: rgb(209, 41, 41);
+}
+
+
+
+.textos-red a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ededed;
+    border-radius: 25px;
+    background: black;
+    font-size: 8px;
+    padding: 8px 20px;
+}
+
+.textos-red a:hover{
+    background: white;
+    color: rgb(209, 41, 41);
+    transition: 0.5s;
+}
+
+
+.mas-vendidos h2{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    color: rgb(32, 32, 31);
+    border-bottom: 1px solid rgb(179, 176, 176);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+/* -----------------------SECTION1------------------------ */
+
+
+
+.img-vendidos h4{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.img-vendidos a{
+    text-decoration: none;
+    color: black;
+}
+
+.img-vendidos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-vendidos article{
+    margin: 15px;
+}
+
+.img-vendidos img{
+    width: 100%;
+    max-width: 280px;
+    border: 1px solid rgb(179, 176, 176);
+}
+
+.img-vendidos img:hover{
+  border: 1px solid rgb(49, 49, 49);
+  transition: 0.4s;
+}
+
+
+
+/* -----------------------SECTION2------------------------ */
+
+
+
+.deportes-mujer img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.deportes-mujer h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+
+
+.deportes-mujer h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.vermas{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+
+.vermas a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ededed;
+    border-radius: 25px;
+    background: black;
+    font-size: 8px;
+    padding: 12px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+ }
+
+ .vermas a:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+    transition: 0.5s;
+ }
+
+ /* -----------------------SECTION3------------------------ */
+
+
+ .deportes-hombre img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.deportes-hombre h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.deportes-hombre h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.vermas{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+
+.vermas a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ededed;
+    border-radius: 25px;
+    background: black;
+    font-size: 8px;
+    padding: 12px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+ }
+
+
+/* -----------------------SECTION4------------------------ */
+
+
+
+
+.coleccion-abrigos img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.coleccion-abrigos h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.coleccion-abrigos h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.vermas{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+
+.vermas a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ededed;
+    border-radius: 25px;
+    background: black;
+    font-size: 8px;
+    padding: 12px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+ }
+
+
+
+
+/* -----------------------SECTION5------------------------ */
+
+.inferiores img{
+    width: 100%;
+    margin-top: 60px;
+}
+
+
+.inferiores h2{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+}
+
+.inferiores h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+.vermas{
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
+
+
+.vermas a{
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ededed;
+    border-radius: 25px;
+    background: black;
+    font-size: 8px;
+    padding: 12px 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+ }
+
+
+
+
+
+
+
+/* -----------------------FIN DEL MAIN------------------------ */
+
+
+/* -------------------------FOOTER---------------------------- */
+
+
+footer {
+    background: black;
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ededed;
+    position: relative;
+  }
+  
+  footer label {
+    font-size: 15px;
+  }
+  
+  footer input {
+    background: black;
+    border: 1px solid #ededed;
+    margin-bottom: 50px;
+    position: absolute;
+    padding: 10px 30px;
+    top: 23%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+  }
+  
+  footer input::-webkit-input-placeholder {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  footer input:-ms-input-placeholder {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  footer input::-ms-input-placeholder {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  footer input::placeholder {
+    font-size: 11px;
+    text-align: center;
+  }
+  
+  footer .terminos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .frase-f {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 13px;
+    color: #c9c9c9;
+  }
+  
+  #iconos {
+    text-align: center;
+    padding: 10px 20px 10px;
+  }
+  
+  .marco {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .c-contenedor {
+    margin-top: 40px;
+  }
+  
+  .c-contenedor .ayudas {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  select {
+    background: black;
+    color: #ededed;
+    padding: 0 20px;
+  }
+  
+  .ultimo {
+    padding-top: 30px;
+  }
+  
+  #final2 {
+    display: none;
+  }
+  
+  .caja2 {
+    display: none;
+  }
+  
+  label {
+    color: #d8d7d7;
+  }
+
+  .c-contenedor a{
+    color: white;
+    text-decoration: none;
+  }
+
+
+/* --------------------------MUJERES/HOMBRES---------------------------- */
+#fotos-m .contenedor-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#fotos-m img {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 280px;
+  border: 1px solid #c9c9c9;
+  margin-bottom: 50px;
+}
+
+
+#fotos-m img:hover{
+  border: 1px solid #777474;
+  transition: 0.5s;
+}
+
+
+#fotos-m h4 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+}
+
+article h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+
+
+
+/* --------------------------COLECCIONES---------------------------- */
+.imagen-portada img{
+  position: relative;
+   width: 100%;
+   margin-top: 70px;
+}
+
+
+.imagen-portada h1{
+  position: absolute;
+  font-size: 30px;
+  font-weight: 400;
+  color: #ededed;
+  left: 5%;
+  top: 19%;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+
+
+.imagen-portada a{
+  text-decoration: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ededed;
+  border-radius: 25px;
+  background: black;
+  font-size: 8px;
+  padding: 8px 20px;
+  position: absolute;
+  left: 5%;
+  top: 30%;
+}
+
+.imagen-portada a:hover{
+  background: white;
+  color: rgb(209, 41, 41);
+  transition: 0.5s;
+}
+
+
+/* ---------------------------------------------------REGISTRARSE--------------------------------------------------- */
+#panel-cuenta {
+  display: -ms-grid;
+  display: grid;
+}
+
+.panel {
+  margin-top: 49px;
+  width: 100%;
+}
+
+.panel h1 {
+  background: #141414;
+  color: #ededed;
+  padding: 30px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio {
+  margin: 30px 10px;
+}
+
+.inicio a {
+  background: #ededed;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-right: 20px;
+}
+
+.inicio a:hover {
+  background: #d8d7d7;
+  color: black;
+}
+
+.titulos-sesion {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.inputs-sesion {
+  background: black;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 12px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+
+.crear {
+  background: #ededed;
+  color: black;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  border: 1px solid black;
+  margin-left: 10px;
+}
+
+.crear:hover {
+  background: #d8d7d7;
+  color: black;
+}
+
+.cumpleaños {
+  margin-left: 10px;
+  background: black;
+  color: #d8d7d7;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------MEDIA/TABLET---------------------------- */
+
+
+  @media (min-width: 768px) {
+    .menu{
+        position: static;
+        width: auto;
+        height: auto;
+        transform: translateX(0%);
+        float: right;
+        display: flex;
+    }
+
+
+   .menu a{
+    border: none;
+    margin-top: 7px;
+   }
+
+
+   header label{
+    display: none;
+   }
+
+
+
+   .deportes-mujer img{
+    margin: auto;
+    display: block;
+    width: auto;
+    margin-top: 100px;
+   }
+
+
+   .deportes-mujer img:hover{
+    border: 1px solid #777474;
+    transition: 1s;
+   }
+
+
+   .deportes-hombre img{
+    margin: auto;
+    display: block;
+    width: auto;
+    margin-top: 100px;
+ }
+
+ .deportes-hombre img:hover{
+   border: 1px solid #777474;
+   transition: 1s;
+ }
+
+
+   .inferiores img{
+     margin: auto;
+     display: block;
+     width: auto;
+     height: 678px;
+     width: 678px;
+     margin-top: 100px;
+}
+
+   .inferiores img:hover{
+    border: 1px solid #141414;
+    transition: 1s;
+ }
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+  @media (min-width: 1024px){
+
+
+    /* ----------------------------------------------FOOTER---------------------------------------------------- */
+    .final {
+        display: none;
+      }
+      #final2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        height: 300px;
+        background: #141414;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+      }
+      .fila {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+      .caja1 {
+        margin-top: 50px;
+        margin-left: 50px;
+      }
+      .caja1 h5 {
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-bottom: 1px solid #ededed;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+      }
+      .caja1 ul {
+        padding: 20px 0;
+      }
+      .caja1 li {
+        padding: 4px 0;
+      }
+      .caja1 label {
+        font-size: 20px;
+      }
+      .caja1 a:hover {
+        color: #d8d7d7;
+      }
+      .li-footer {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        list-style: none;
+        color: #777474;
+        font-size: 14px;
+      }
+      .red label {
+        padding: 0 9px;
+        color: #777474;
+      }
+      .red label:hover {
+        color: #d8d7d7;
+        cursor: pointer;
+      }
+      .ayuda {
+        margin-right: 50px;
+      }
+      .acerca {
+        margin-right: 50px;
+      }
+      .caja2 {
+        background: #141414;
+        color: #ededed;
+        font-family: Arial, Helvetica, sans-serif;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        border-top: 1px solid #ededed;
+        padding: 30px 0;
+      }
+      .caja2 p {
+        color: #777474;
+        font-size: 12px;
+        margin-right: 40px;
+      }
+      select {
+        background: #141414;
+        padding: 5px 30px;
+      }
+      #pais {
+        padding-left: 10px;
+      }
+
+
+
+/* ----------------------------------------------HEADER---------------------------------------------------- */
+
+
+     .icon-basket{
+        display: block;
+        margin-top: -9px;
+        margin-left: 200px;
+     }
+
+
+     .icon-user{
+        display: block;
+        margin-top: -9px;
+     }
+
+    
+     .menu{
+        margin-right: 20px;
+     }
+
+
+      .menu a:hover{
+         background: black;
+         border-bottom: 1px solid #ededed;
+      }
+
+
+
+/* ---------------------------------------------COLECCIONES------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+    
