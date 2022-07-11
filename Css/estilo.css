@@ -6,7 +6,35 @@
 
 body{
     background: #ededed;
+    min-height: 100%;
 }
+
+
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer"
+  "div";
+}
+
+header{
+  grid-area: header;
+}
+
+main{
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+}
+
+.caja2{
+  grid-area: div;
+}
+
 
 header{
     width: 100%;
